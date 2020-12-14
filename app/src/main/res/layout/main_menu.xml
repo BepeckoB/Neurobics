@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.man.gametest.StartMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:paddingStart="125dp"
+    android:paddingTop="25dp"
+    android:id="@+id/MainMenu">
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_settings"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/settings"
+        android:id="@+id/calculating"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/calculating"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/buttonColor1" />
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/calculating"
+        android:id="@+id/triangleMath"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/triangleMath"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/buttonColor1" />
+    <Button
+        android:layout_below="@id/triangleMath"
+        android:layout_marginTop="25dp"
+        android:id="@+id/byTheNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/byTheNumbers"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/buttonColor1" />
+    <Button
+        android:layout_below="@id/byTheNumbers"
+        android:layout_marginTop="25dp"
+        android:id="@+id/lowToHigh"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/lowToHigh"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/buttonColor1" />
+    <Button
+        android:layout_below="@id/lowToHigh"
+        android:layout_marginTop="25dp"
+        android:id="@+id/memorizeTheWord"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/memorizeTheWord"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/buttonColor1" />
+    <Button
+        android:layout_below="@id/memorizeTheWord"
+        android:layout_marginTop="25dp"
+        android:id="@+id/stroopTest"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/stroopTest"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/buttonColor1" />
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GameTest</string>
+    <string name="game_name">Neurobics</string>
+    <string name="ttp">Tap to play</string>
+    <string name="calculating">Calculating x20</string>
+    <string name="triangleMath">Triangle Math</string>
+    <string name="byTheNumbers">By The Numbers</string>
+    <string name="lowToHigh">Low To High</string>
+    <string name="memorizeTheWord">Memorize The Word</string>
+    <string name="stroopTest">Stroop Test</string>
+    <string name="play">Play</string>
+    <string name="back">Back</string>
+
+    <string name="stroopText"> When doing a Stroop test you must set aside the word that is seen and instead focus on the color of the word.\n
+        For example if you see the word "Blue" but the color of the word is red right answer is "blue"."
+    </string>
+    <string name="stroopText2">There will be 25 words\n in 6 different colors.</string>
+
+    <string name="white">WHITE</string>
+    <string name="black">BLACK</string>
+    <string name="blue">BLUE</string>
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="yellow">YELLOW</string>
+
+    <string name="CalculatingText">When doing a Calculating you should solve simple math problems as fast as you can.</string>
+    <string name="CalculatingText2">There will be 20 simple math problems</string>
+
+    <string name="TrimathText">WRITE ME </string>
+
+</resources>
